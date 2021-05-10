@@ -19,7 +19,7 @@ spec:
     sourceStrategy:
       from:
         kind: ImageStreamTag
-        name: s2i-thoth-ubi8-py38
+        name: s2i-thoth-ubi8-py38:latest
       env:
       - name: THOTH_ADVISE
         value: "0"
